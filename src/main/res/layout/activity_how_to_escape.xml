@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".How_To_Escape">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[곰]"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:text="  ■ 곰은 나무를 잘 타는 동물입니다. 나무 위로 피하지 마세요.\n\n  ■ 곰은 금속성 소리를 싫어합니다. 쇠로 된 방울을 달고 다니면 도움이 됩니다.\n\n  ■ 곰은 여름철 가장 활발히 움직입니다. 이 기간에 특히 조심하세요.\n\n  ■ 곰이 먼 곳에 있다면 팔을 천천히 머리 위로 들어올리세요. 곰이 자기보다 더 큰 동물이라고 생각해 접근할 가능성이 낮아집니다.\n\n  ■ 곰과 가까운 곳에서 마주쳤다면 눈을 정면으로 바라보고 천천히 뒷걸음질하세요. 뒷모습을 보이면 곰이 자기보다 약한 상대로 여겨 쫓아올 수 있습니다."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[멧돼지]"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.894" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="504dp"
+        android:text="  ■ 멧돼지와 서로 주시하는 경우 눈빛을 피하지 마세요. 눈을 정면으로 응시하면서 천천히 뒷걸음질로 피하세요.\n\n  ■ 우산을 들고 있다면 우산을 펴세요. 우산 뒤에 있으면 멧돼지가 우산을 바위로 생각해 공격하지 않습니다.\n\n  ■ 돌을 던지거나 소리를 지르지 마세요. 오히려 멧돼지가 공격할 수 있습니다.\n\n  ■ 멧돼지와 서로 주시하는 경우 눈빛을 피하지 마세요."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
